@@ -1,0 +1,31 @@
+.game {
+  margin: 0 auto 50px auto;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.cell {
+  box-sizingb: border-box;
+  height: 140px;
+  width: 140px;
+  color: #ffffff;
+  border: 4px solid #ffffff ;
+  border-radius: 15%;
+  background-color: #00bbbb;
+  text-align: center;
+  font-size: 60px;
+  line-height: 140px;
+}
+.btn {
+  margin-left: 40%;
+  padding: 15px 10px;
+  border: 2px solid #000000;
+  background-color: #00ff00;
+  border-radius: 20px;
+}
+.cell-changing-color {
+  background-color: #cc3300;
+}
